@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffe1cb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 200px;
+    height: 100px;
+}
+
+
+.navbar {
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+.icons {
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.icons span {
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    list-style: none;
+    size: 20px;
+}
+
+.design {
+    /* border: 1px solid black; */
+    background-color: rgb(255, 176, 107);
+    height: 4px;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    width: 85vw;
+    margin: 0 auto;
+    /* align-items: center; */
+}
+
+.main .content {
+    /* border: 1px solid black; */
+    /* max-width: 50%; */
+    padding: 100px;
+
+}
+
+.main .content h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.main .content h1 span {
+    color: orangered;
+    text-decoration: underline 3px solid rgb(234, 191, 21);
+
+}
+
+.order-now {
+    background-color: orangered;
+    color: white;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: all ease 0.3s;
+}
+
+.order-now:hover {
+    background-color: #ff7f50;
+    cursor: pointer;
+}
+
+.main .main-dish {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
+    padding: 35px;
+    margin-left: 30px;
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 80vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.menu .cards {
+    width: 20vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu .cards img {
+    width: 175px;
+    height: 170px;
+}
+
+.menu .cards h3 {
+    font-weight: 700;
+}
+
+
+.cards button {
+    background-color: orangered;
+    color: white;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: all ease 0.3s;
+}
+
+.cards button:hover {
+    scale: 1.07;
+    box-shadow: 1px 1px 5px rgb(251, 77, 14);
+}
+
+.choose-us {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: 100px auto;
+}
+
+.block {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+/* 
+.choose .point{
+
+} */
+
+.choose .point img {
+    height: 75px;
+    width: 75px;
+    float: left;
+}
+
+.choose .point h3,
+p {
+    margin-left: 20px;
+    padding: 0;
+    text-align: left;
+}
+
+.popular {
+    /* border: 1px solid black; */
+    width: 50vw;
+    margin: 100px auto 60px;
+}
+
+.popular h2,
+p {
+    text-align: center;
+}
+
+.food-items {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.food-card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 80vw;
+    height: 270px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(255, 197, 158);
+    transform: translateY(200px);
+}
+
+.food {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 370px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgb(81, 81, 81) 1px 1px 10px;
+    transform: translateY(-200px);
+    transition: all 0.5s ease-in-out;
+}
+
+.food:hover {
+    scale: 1.02;
+    /* background-color: #ffffff; */
+}
+
+.food img {
+    height: 200px;
+    width: 175px;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+}
+
+.food h4 {
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.food price {
+    background-color: orangered;
+    color: white;
+    font-weight: 900;
+    margin: 0 0 10px 0;
+    width: 130px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.feed-page {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    transform: translateY(200px);
+    margin: 100px auto;
+    /* border: 1px solid black; */
+}
+
+.feed-page .div {
+    width: 39vw;
+    /* border: 1px solid black; */
+
+}
+
+.feed-page .feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+.feed-page .feedback heading {
+
+    font-weight: 700;
+    font-size: 35px;
+    margin: 100px auto 20px 0;
+}
+
+.feed-page .feedback heading span {
+    color: red;
+}
+
+.feed-page .feedback p {
+    text-align: left;
+}
+
+.feed-page .feedback img {
+    height: 250px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.feed-page .chef img {
+    margin: 0 0 0 40px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 100px auto  300px;
+    transform: translateY(200px);
+}
+
+
+.contact .subscribe heading{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 100px auto 20px 0;
+}
+
+.contact .subscribe heading span{
+    color: red;
+}
+
+.contact .email input{
+    margin: 0px -5px 0 0;
+    padding: 10px;
+    width: 350px;
+    height: 30px;
+    border: 1px solid rgb(255, 197, 158);
+    background-color: rgb(255, 197, 158);;
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+}
+
+.contact .email button{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: orangered;
+    font-weight: 700;
+    border: none;
+    border-end-end-radius: 10px;
+    border-start-end-radius: 10px;
+}
+
+.design2{
+    background-color: rgb(255, 176, 107);
+    height: 4px;
+    margin: 0;
+}
+
+.footer{
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer .info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer .info img{
+    height: 200px;
+    width: 400px;
+    margin: 100px auto 0;
+}
+
+.footer .info p{
+    font-size: 16px;
+    text-align: left;
+    font-weight: bolder;
+}
